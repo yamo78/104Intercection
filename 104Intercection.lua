@@ -66,4 +66,9 @@ local function handle_intersection(input)
 	end
 end
 
-handle_intersection("1 4 0 3 0 0 -2 4") 
+local function main()
+	local test_input = "1 4 0 3 0 0 -2 4"
+	handle_intersection(test_input)
+end
+
+main()
